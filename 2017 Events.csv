@@ -1,0 +1,169 @@
+name|event_code|start_date|end_date|event_type_string
+Western Canada Regional|abca|2017-04-05|2017-04-08|Regional
+Rocket City Regional|alhu|2017-03-22|2017-03-25|Regional
+Archimedes Division|arc|2017-04-26|2017-04-29|Championship Division
+Arkansas Rock City Regional|arli|2017-03-08|2017-03-11|Regional
+Redbacks Scrimmage|aurb|2017-02-19|2017-02-19|Preseason
+Southern Cross Regional|ausc|2017-03-13|2017-03-15|Regional
+South Pacific Regional|ausp|2017-03-16|2017-03-18|Regional
+Arizona North Regional|azfl|2017-03-08|2017-03-11|Regional
+Arizona West Regional|azpx|2017-04-05|2017-04-08|Regional
+Sacramento Regional|cada|2017-03-22|2017-03-25|Regional
+Orange County Regional|cair|2017-03-29|2017-04-01|Regional
+Los Angeles Regional|calb|2017-03-23|2017-03-26|Regional
+Central Valley Regional|cama|2017-03-09|2017-03-12|Regional
+Pre-Bag Scrimmage|capb|2017-02-18|2017-02-19|Preseason
+Carson Division|cars|2017-04-26|2017-04-29|Championship Division
+Carver Division|carv|2017-04-19|2017-04-22|Championship Division
+San Diego Regional presented by Qualcomm|casd|2017-03-08|2017-03-11|Regional
+San Francisco Regional|casf|2017-03-16|2017-03-19|Regional
+Silicon Valley Regional|casj|2017-03-29|2017-04-01|Regional
+Ventura Regional|cave|2017-03-15|2017-03-18|Regional
+FIRST Chesapeake District Championship sponsored by Booz Allen Hamilton|chcmp|2017-04-05|2017-04-08|District Championship
+Centurion-Krawler Week Zero|ckw0|2017-02-18|2017-02-18|Preseason
+Einstein (St. Louis) Field|cmpmo|2017-04-29|2017-04-29|Championship Finals
+Einstein (Houston) Field|cmptx|2017-04-22|2017-04-22|Championship Finals
+Colorado Regional|code|2017-03-22|2017-03-25|Regional
+NE District - Hartford Event|cthar|2017-03-31|2017-04-02|District
+Suffield Shakedown Scrimmage|ctss|2017-02-18|2017-02-18|Preseason
+NE District - Waterbury Event|ctwat|2017-03-03|2017-03-05|District
+Curie Division|cur|2017-04-26|2017-04-29|Championship Division
+Daly Division|dal|2017-04-26|2017-04-29|Championship Division
+Darwin Division|dar|2017-04-26|2017-04-29|Championship Division
+Orlando Regional|flor|2017-03-08|2017-03-11|Regional
+South Florida Regional |flwp|2017-03-01|2017-03-04|Regional
+PCH District - Albany Event|gaalb|2017-03-23|2017-03-25|District
+Peachtree State Championship|gacmp|2017-04-05|2017-04-08|District Championship
+PCH District - Columbus Event|gacol|2017-03-16|2017-03-18|District
+PCH District - Dalton Event|gadal|2017-03-09|2017-03-11|District
+PCH District - Gainesville Event|gagai|2017-03-03|2017-03-05|District
+Galileo Division|gal|2017-04-19|2017-04-22|Championship Division
+Shenzhen Regional|gush|2017-03-08|2017-03-11|Regional
+Hawaii Regional|hiho|2017-03-29|2017-04-01|Regional
+Hopper Division|hop|2017-04-19|2017-04-22|Championship Division
+Iowa Regional|iacf|2017-03-22|2017-03-25|Regional
+Idaho Regional|idbo|2017-03-29|2017-04-01|Regional
+Midwest Regional|ilch|2017-03-29|2017-04-01|Regional
+Central Illinois Regional|ilpe|2017-03-15|2017-03-18|Regional
+Indiana State Championship|incmp|2017-04-06|2017-04-08|District Championship
+IN District - St. Joseph Event|inmis|2017-03-10|2017-03-12|District
+IN District - Perry Meridian Event|inpmh|2017-03-23|2017-03-25|District
+IN District - Tippecanoe Event|inwla|2017-03-03|2017-03-05|District
+Indiana Robotics Invitational|iri|2017-07-14|2017-07-15|Offseason
+FIRST Israel District Championship|iscmp|2017-03-28|2017-03-30|District Championship
+ISR District Event #1|isde1|2017-03-06|2017-03-07|District
+ISR District Event #2|isde2|2017-03-08|2017-03-09|District
+ISR District Event #3|isde3|2017-03-13|2017-03-14|District
+ISR District Event #4|isde4|2017-03-15|2017-03-16|District
+Bayou Regional|lake|2017-03-22|2017-03-25|Regional
+NE District - Greater Boston Event|mabos|2017-03-17|2017-03-19|District
+NE District - SE Mass Event|mabri|2017-03-10|2017-03-12|District
+NE District - North Shore Event|marea|2017-03-17|2017-03-19|District
+NE District - Worcester Polytechnic Institute Event|mawor|2017-03-08|2017-03-10|District
+CHS District - Greater DC Event sponsored by Accenture|mdbet|2017-03-10|2017-03-12|District
+CHS District - Central Maryland Event sponsored by Leidos|mdedg|2017-03-24|2017-03-26|District
+CHS District - Northern Maryland Event|mdowi|2017-03-17|2017-03-19|District
+NE District - Pine Tree Event|melew|2017-03-30|2017-04-01|District
+FIM District - Ann Arbor Pioneer Event|miann|2017-03-09|2017-03-11|District
+FIM District - Woodhaven Event|mibro|2017-03-23|2017-03-25|District
+FIM District - Center Line Event|micen|2017-03-09|2017-03-11|District
+Michigan State Championship|micmp|2017-04-12|2017-04-15|District Championship
+FIM District - Escanaba Event|miesc|2017-03-16|2017-03-18|District
+FIM District - Gaylord Event|migay|2017-03-16|2017-03-18|District
+FIM District - Gull Lake Event|migul|2017-03-16|2017-03-18|District
+FIM District - Howell Event|mihow|2017-03-30|2017-04-01|District
+Kettering Week  0.5|mike0|2017-02-25|2017-02-25|Preseason
+FIM District - Kettering University Event #2|mike2|2017-03-09|2017-03-11|District
+FIM District - East Kentwood Event|miken|2017-03-30|2017-04-01|District
+FIM District - Kettering University Event #1|miket|2017-03-02|2017-03-04|District
+FIM District - Lakeview Event|milak|2017-03-02|2017-03-04|District
+FIM District - Lansing Event|milan|2017-03-23|2017-03-25|District
+FIM District - Livonia Event|miliv|2017-04-06|2017-04-08|District
+FIM District - Lake Superior State University Event|milsu|2017-03-30|2017-04-01|District
+FIM District - Marysville Event|mimar|2017-04-06|2017-04-08|District
+FIM District - Midland Event|mimid|2017-03-23|2017-03-25|District
+FIM District - Shepherd Event|mishe|2017-04-06|2017-04-08|District
+FIM District - St. Joseph Event|misjo|2017-03-09|2017-03-11|District
+FIM District - Southfield Event|misou|2017-03-02|2017-03-04|District
+FIM District - Troy Event|mitry|2017-03-30|2017-04-01|District
+FIM District - Traverse City Event|mitvc|2017-04-06|2017-04-08|District
+FIM District - Waterford Event|miwat|2017-03-16|2017-03-18|District
+FIM District - West Michigan Event|miwmi|2017-03-23|2017-03-25|District
+Lake Superior Regional|mndu|2017-03-01|2017-03-04|Regional
+Northern Lights Regional|mndu2|2017-03-01|2017-03-04|Regional
+Minnesota 10000 Lakes Regional|mnmi|2017-04-05|2017-04-08|Regional
+Minnesota North Star Regional|mnmi2|2017-04-05|2017-04-08|Regional
+Minne Mini|mnmn|2017-11-17|2017-11-18|Offseason
+Northern MN Week Zero|mnw0|2017-02-18|2017-02-18|Preseason
+Greater Kansas City Regional|mokc|2017-03-15|2017-03-18|Regional
+St. Louis Regional|mosl|2017-03-08|2017-03-11|Regional
+FIRST Mid-Atlantic District Championship sponsored by Johnson & Johnson|mrcmp|2017-04-05|2017-04-08|District Championship
+Toluca Regional|mxtl|2017-03-01|2017-03-04|Regional
+Laguna Regional|mxto|2017-03-29|2017-04-01|Regional
+NC District - UNC Asheville Event|ncash|2017-03-17|2017-03-19|District
+FIRST North Carolina State Championship|nccmp|2017-03-31|2017-04-02|District Championship
+NC District - Greensboro Event|ncgre|2017-03-09|2017-03-11|District
+NC District - Raleigh Event|ncral|2017-03-23|2017-03-25|District
+NC District - Pitt County Event|ncwin|2017-03-03|2017-03-05|District
+New England District Championship|necmp|2017-04-05|2017-04-08|District Championship
+Newton Division|new|2017-04-19|2017-04-22|Championship Division
+NE District - Southern NH Event|nhbed|2017-03-24|2017-03-26|District
+NE District - Granite State Event|nhgrs|2017-03-03|2017-03-05|District
+MAR District - Bridgewater-Raritan Event|njbri|2017-03-17|2017-03-19|District
+MAR District - Mount Olive Event|njfla|2017-03-10|2017-03-12|District
+MAR District - Montgomery Event|njski|2017-03-31|2017-04-02|District
+MAR District - Seneca Event|njtab|2017-03-24|2017-03-26|District
+Las Vegas Regional|nvlv|2017-04-05|2017-04-08|Regional
+SBPLI Long Island Regional|nyli|2017-03-29|2017-04-01|Regional
+New York City Regional|nyny|2017-04-06|2017-04-09|Regional
+Finger Lakes Regional |nyro|2017-03-15|2017-03-18|Regional
+Hudson Valley Regional|nysu|2017-03-23|2017-03-26|Regional
+New York Tech Valley Regional|nytr|2017-03-15|2017-03-18|Regional
+Buckeye Regional|ohcl|2017-03-29|2017-04-01|Regional
+Miami Valley Regional|ohsp|2017-03-08|2017-03-11|Regional
+Oklahoma Regional |okok|2017-03-22|2017-03-25|Regional
+ONT District - Georgian College Event|onbar|2017-03-24|2017-03-26|District
+FIRST Ontario Provincial Championship|oncmp|2017-04-12|2017-04-15|District Championship
+ONT District - McMaster University Event|onham|2017-04-07|2017-04-09|District
+ONT District - Western University, Engineering Event|onlon|2017-03-31|2017-04-02|District
+ONT District - North Bay Event|onnob|2017-04-06|2017-04-08|District
+ONT District - Durham College Event|onosh|2017-03-03|2017-03-05|District
+ONT District - Ryerson University Event|onto1|2017-03-10|2017-03-12|District
+ONT District - Victoria Park Collegiate Event|onto2|2017-03-17|2017-03-19|District
+ONT District - University of Waterloo Event|onwat|2017-03-23|2017-03-25|District
+ONT District - Windsor Essex Great Lakes Event|onwin|2017-03-30|2017-04-01|District
+PNW District - Lake Oswego Event|orlak|2017-03-30|2017-04-01|District
+PNW District - Clackamas Academy of Industrial Science Event|orore|2017-03-23|2017-03-25|District
+PNW District - Wilsonville Event|orwil|2017-03-09|2017-03-11|District
+Greater Pittsburgh Regional|paca|2017-03-15|2017-03-18|Regional
+MAR District - Hatboro-Horsham Event|pahat|2017-03-03|2017-03-05|District
+MAR District - Springside Chestnut Hill Academy Event|paphi|2017-03-17|2017-03-19|District
+MAR District - Westtown Event|pawch|2017-03-10|2017-03-12|District
+Pacific Northwest District Championship|pncmp|2017-04-05|2017-04-08|District Championship
+Festival de Robotique - Montreal Regional|qcmo|2017-03-22|2017-03-25|Regional
+NE District - Rhode Island Event|ripro|2017-03-24|2017-03-26|District
+Roebling Division|roe|2017-04-19|2017-04-22|Championship Division
+Palmetto Regional|scmb|2017-03-01|2017-03-04|Regional
+Tesla Division|tes|2017-04-26|2017-04-29|Championship Division
+Smoky Mountains Regional|tnkn|2017-03-22|2017-03-25|Regional
+Turing Division|tur|2017-04-19|2017-04-22|Championship Division
+Dallas Regional|txda|2017-03-08|2017-03-11|Regional
+Lone Star Central Regional|txho|2017-03-15|2017-03-18|Regional
+Hub City Regional|txlu|2017-03-01|2017-03-04|Regional
+Alamo Regional|txsa|2017-04-05|2017-04-08|Regional
+Brazos Valley Regional|txwa|2017-03-30|2017-04-02|Regional
+Lone Star North Regional|txwo|2017-03-30|2017-04-02|Regional
+Utah Regional|utwv|2017-03-08|2017-03-11|Regional
+CHS District - Southwest Virginia Event|vabla|2017-03-03|2017-03-05|District
+CHS District - Central Virginia Event|vagle|2017-03-24|2017-03-26|District
+CHS District - Northern Virginia Event sponsored by Bechtel|vahay|2017-03-03|2017-03-05|District
+CHS District - Hampton Roads Event sponsored by Newport News Shipbuilding|vapor|2017-03-17|2017-03-19|District
+PNW District - Auburn Event|waahs|2017-03-31|2017-04-02|District
+PNW District - Auburn Mountainview Event|waamv|2017-03-03|2017-03-05|District
+PNW District - Central Washington University Event|waell|2017-03-16|2017-03-18|District
+PNW District - Mount Vernon Event|wamou|2017-03-17|2017-03-19|District
+PNW District - Glacier Peak Event|wasno|2017-03-24|2017-03-26|District
+PNW District - West Valley Event|waspo|2017-03-02|2017-03-04|District
+Week 0|week0|2017-02-18|2017-02-18|Preseason
+Seven Rivers Regional|wila|2017-04-12|2017-04-15|Regional
+Wisconsin Regional|wimi|2017-03-22|2017-03-25|Regional
