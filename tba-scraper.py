@@ -835,7 +835,7 @@ def gethof():
     outfile.close()
     
 def eventresult2pd(pdwriter, event, year=THISYEAR):
-    '''(pandas excelwriter object, str, number) -> string
+    '''(pandas excelwriter object, str, number) -> Nonetype
     Pull match results, flatten the dataframe, put them in a pandas dataframe, 
     and dump to an open excel file.
     '''
@@ -876,12 +876,9 @@ def eventresult2pd(pdwriter, event, year=THISYEAR):
     resultsdf.to_excel(pdwriter, sheet_name=event)
 
 def pullmultieventresults(weekevents):
-    '''(list) -> 
+    '''(list) -> None
     
-    >>> writer = ExcelWriter('output.xlsx')
->>> df1.to_excel(writer,'Sheet1')
->>> df2.to_excel(writer,'Sheet2')
->>> writer.save()
+
     '''
     outfile = 'week 1.xlsx'  
     
