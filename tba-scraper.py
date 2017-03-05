@@ -834,10 +834,12 @@ def gethof():
         
     outfile.close()
     
-def matchresult2pd(event, year=THISYEAR):
+def eventresult2pd(event, year=THISYEAR):
     '''
-    Pull match results, put them in a pandas dataframe, and dump to an excel file.
+    Pull match results, flatten the dataframe, put them in a pandas dataframe, 
+    and dump to an excel file.
     '''
+    outfile = 'results/events.xlsx'
     
     eventjson = get_event_matches(event, year)
     
@@ -869,7 +871,10 @@ def matchresult2pd(event, year=THISYEAR):
         flatterevent.append(red)
         flatterevent.append(blue)
         
-    pprint(flatterevent[:5])
+    resultsdf = pd.DataFrame(flatterevent)
+    
+    pprint(resultsdf.head())
+    resultsdf.to_excel(outfile, sheet_name=event)
                 
                 
     
