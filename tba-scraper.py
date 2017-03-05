@@ -841,7 +841,35 @@ def matchresult2pd(event, year=THISYEAR):
     
     eventjson = get_event_matches(event, year)
     
-    eventdf = pd.DataFrame(eventjson)
-    
-    pprint(eventdf.head())
+    flatterevent = []
+    for match in eventjson:
+        red = {'alliance': 'red'}
+        blue = {'alliance': 'blue'}
+        for field in match:
+            if field not in ['alliances', 'score_breakdown']:
+                red[field] = match[field]
+                blue[field] = match[field]
+            elif field == 'alliances':
+                for alliance in match['alliances']:
+                    for item in match['alliances'][alliance]:
+                        if alliance == 'red':
+                            red[item] = match['alliances'][alliance][item]
+                        else:
+                            blue[item] = match['alliances'][alliance][item]
+            elif field == 'score_breakdown' and match['score_breakdown'] != None:
+                #None will occur when match is unplayed
+                
+                for alliance in match['score_breakdown']:
+                    for item in match['score_breakdown'][alliance]:
+                        if alliance == 'red':
+                            red[item] = match['score_breakdown'][alliance][item]
+                        else:
+                            blue[item] = match['score_breakdown'][alliance][item]
+            
+        flatterevent.append(red)
+        flatterevent.append(blue)
+        
+    pprint(flatterevent[:5])
+                
+                
     
