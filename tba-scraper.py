@@ -866,7 +866,15 @@ def eventresult2pd(pdwriter, event, year=THISYEAR):
                             red[item] = match['score_breakdown'][alliance][item]
                         else:
                             blue[item] = match['score_breakdown'][alliance][item]
-            
+        if match['alliances']['red']['score'] > match['alliances']['blue']['score']:
+            red['wlt'] = 'Win'
+            blue['wlt'] = 'Lose'
+        elif match['alliances']['red']['score'] < match['alliances']['blue']['score']:
+            red['wlt'] = 'Lose'
+            blue['wlt'] = 'Win'
+        else:
+            red['wlt'] = 'Tie'
+            blue['wlt'] = 'Tie'
         flatterevent.append(red)
         flatterevent.append(blue)
         
