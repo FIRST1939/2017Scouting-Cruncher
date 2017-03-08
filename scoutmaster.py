@@ -41,7 +41,7 @@ def calculate_value(data):
     
     Scoring Contribution = Auto Mobility * 5
         + Auto gears delivered * 20
-        + Total gears delivered [1-2@20 pts each,3-6@10 pts each, 7-12@6.67 pts each]
+        + Total gears delivered [1-2@20 pts each,3-6@10 pts each, 7-12@6.7 pts each]
         + Auto fuel high
         + Auto fuel low / 3
         + Tele fuel high / 3
@@ -68,8 +68,24 @@ def calculate_value(data):
                     'telegearattempts','telelowgoal','telelowgoalattempts',
                     'highgoal','highgoalattempts','teleclimbing','deadbot']
 
+
     
-    pprint(data.head())                    
+    data['autoScore'] = (data.baseline * 5 + data.autogear * 20 + 
+                        data.autohighgoal + (data.autolowGoal / 3))
     
-    #data['score'] = data.
+    data['gearCount'] = (data.autogear + data.telegear)
     
+    scoreGears = pd.Series({0: 0, 1: 20, 2: 40,
+                            3: 50, 4: 60, 5: 70, 6: 80,
+                            7: 80+6.7, 8: 80+6.7*2, 9: 80+6.7*3,
+                            10: 80+6.7*4, 11: 80+6.7*5,12: 120})
+    
+   
+    data['gearScore'] = data.gearCount.map(scoreGears)
+    
+    data['score'] = (data.autoScore + data.gearScore + data.teleclimbing * 50 +
+                     data.highgoal / 3 + data.telelowgoal * 4 )
+          
+    pprint(data.head())         
+    
+    return data
