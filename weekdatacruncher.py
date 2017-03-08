@@ -32,6 +32,7 @@ def getdfsfromxls():
     pprint(bulkdfdict.keys())
     
     print(bulkdfdict['mndu'].keys())
+
         
     return bulkdfdict
     
@@ -45,7 +46,7 @@ def mergedfs(bulkdfdict):
     bigdf = pd.concat(bulkdfdict)
      
     #pprint(bigdf)
-     
+    bigdf.to_excel('all_events.xlsx', sheet_name='data')     
     return bigdf
     
     

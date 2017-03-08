@@ -9,6 +9,11 @@ from pprint import pprint
 
 #COOK Import file handling stuff so you can work off an unknown file
 
+def scout():
+    raw = get_data()
+    
+    cooked = calculate_value(raw)
+
 def get_data():
     ''' () -> pd.df
     Read in datafile to a pandas dataframe
@@ -57,7 +62,14 @@ def calculate_value(data):
        ' high goal', 'high goal attempts', ' tele climbing', ' dead bot'],
       dtype='object')
     '''
+    data.columns = ['match','team','baseline','autogear','autoGearAttempts',
+                    'autolowGoal','lowGoalAttempts','autohighgoal',
+                    'autohighgoalattempts','teleblocks','telegear',
+                    'telegearattempts','telelowgoal','telelowgoalattempts',
+                    'highgoal','highgoalattempts','teleclimbing','deadbot']
+
     
-    score = data.apply(lambda row: row[' tele gear'])
+    pprint(data.head())                    
     
-    pprint(score)
+    #data['score'] = data.
+    
