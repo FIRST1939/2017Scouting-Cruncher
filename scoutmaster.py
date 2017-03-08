@@ -13,6 +13,8 @@ def scout():
     raw = get_data()
     
     cooked = calculate_value(raw)
+    
+    crunched = valueTeam(cooked)
 
 def get_data():
     ''' () -> pd.df
@@ -89,3 +91,15 @@ def calculate_value(data):
     pprint(data.head())         
     
     return data
+    
+def valueTeam(data):
+    '''
+    Combines team matches to show the average, min, and max value of the team
+    '''
+    
+    teamgroup = data.groupby('team').mean()
+    
+    print('\nGrouping Data by team\n')
+    
+    print(teamgroup.head())
+    
